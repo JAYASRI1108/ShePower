@@ -1,0 +1,299 @@
+ 
+    body{
+      font-family: Arial, sans-serif;
+        display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+    .hero-section{
+      padding: 80px 0;
+      background: linear-gradient(to bottom right, #ffffff, #f4ddff);
+    }
+    .hero-img{
+      width: 100%;
+      border-radius: 25px;
+    }
+    .stats-box{
+      background-color: #f5e6ff;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .stats-number{
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+
+    .menu-active{
+      background-color:  #9B27FF;
+      color: white;
+    }
+
+    .nav-clr{
+      color: black;
+    }
+
+     .nav-clr:hover{
+      color:#9B27FF ;
+    }
+
+    .contact-btn{
+      background-color: #9B27FF;
+    }
+
+
+    .contact-btn:hover{
+      background-color: #9B27FF;
+
+    }
+
+    .hello-btn{
+      background-color: #9B27FF;
+      color: white;
+    }
+
+
+    
+.purple-btn {
+  background-color: #9B27FF;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+
+.white-btn {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+
+.about-img-wrapper {
+  position: relative;
+}
+
+.about-img {
+  border-radius: 20px;
+}
+
+
+.social-box {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: inline-flex;
+  gap: 25px;
+  position: relative;
+  margin-top: -40px;
+}
+
+.social-box a {
+  font-size: 22px;
+  color: #9B27FF;
+}
+
+.social-box a:hover{
+  background-color: #9B27FF;
+  color: white;
+}
+
+
+.btn-outline-dark{
+
+  font-weight: bold;
+
+}
+ .btn-outline-dark:hover{
+
+  color: #9B27FF;
+  background-color: white;
+ }
+
+
+.portfolio-card {
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 20px;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 2px 12px 25px black;
+}
+
+
+.btn-card-btn{
+  background-color: #9B27FF;
+  color: white;
+  font-weight: bold;
+ 
+  padding: 10px 10px;
+}
+
+.btn-card-btn:hover{
+  background-color: #9B27FF;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+
+
+.btn-card-last{
+  background-color: #9B27FF;
+  padding: 10px 10px;
+  color: white;
+
+}
+
+.project-container{
+
+  background-color: black;
+}
+
+.btn-card-last:hover{
+
+   background-color: #9B27FF;
+  padding: 10px 10px;
+  color: white;
+}
+
+
+.services-section {
+  background-color: #f5f7fb;
+}
+
+
+
+.service-card {
+  border-left: 4px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1rem 3rem rgba(15, 23, 42, 0.12);
+  border-color: #9b5cff; 
+}
+
+
+
+.testimonial-text {
+
+ color: white;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #555;
+}
+
+
+
+
+.testimonial-text {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #444;
+}
+
+
+
+
+
+.contact-section {
+  background-color: #ffffff;
+}
+
+.contact-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background-color: #f4e9ff; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 20px;
+  color: #9b5cff; 
+}
+
+.contact-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #9b5cff;
+}
+
+.contact-social:hover {
+  background-color: #9b5cff;
+  color: #ffffff;
+}
+
+.contact-input {
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  box-shadow: none ;
+}
+
+.contact-input:focus {
+  border-bottom-color: #9b5cff;
+}
+
+.btn-contact {
+  background-color: #9b5cff;
+  color: #fff;
+  padding: 10px 32px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-contact:hover {
+  background-color: #7b3df3;
+  color: #fff;
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  margin-top: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
